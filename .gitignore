@@ -1,0 +1,20 @@
+.claude/
+
+# TouchDesigner
+Backup/
+CrashAutoSave.*
+*.toe.dir/
+
+# Numbered backup toe files (e.g. project.1234.toe)
+*.*.toe
+
+# Media files (too large for git)
+*.mp4
+*.mov
+*.wav
+*.avi
+
+# OS junk
+.DS_Store
+Thumbs.db
+
