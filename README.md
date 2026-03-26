@@ -1,4 +1,4 @@
-# Infinite Grid for TouchDesigner
+# Infinite Grid in TouchDesigner
 
 A resolution-independent, anti-aliased infinite grid rendered via GLSL shaders in TouchDesigner. Based on the [pristine grid technique by Ben Golus](https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8).
 
