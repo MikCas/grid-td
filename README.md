@@ -1,20 +1,10 @@
-# Pristine Infinite Grid for TouchDesigner
+# Infinite Grid for TouchDesigner
 
 A resolution-independent, anti-aliased infinite grid rendered via GLSL shaders in TouchDesigner. Based on the [pristine grid technique by Ben Golus](https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8).
 
 ![Preview](preview1.png)
 ![Preview](preview2.png)
 ![Preview](preview3.png)
-
-## Features
-
-- Anti-aliased grid lines using derivative-based rendering — no aliasing at any zoom level
-- Three plane modes: XY (Front), YZ (Right), ZX (Top)
-- Configurable major and minor grid subdivisions
-- Independent axis lines with per-axis colors (X, Y, Z)
-- Adjustable line widths for minor, major, and axis lines
-- Distance-based fade for clean falloff at the horizon
-- Designed for use with the `Palette:cameraViewport` for interactive 3D navigation
 
 ## Project Structure
 
