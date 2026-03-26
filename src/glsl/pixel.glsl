@@ -4,7 +4,7 @@
 // GRID
 uniform int   uPlaneMode;    // Grid plane: 0 = XY (Front), 1 = YZ (Right), 2 = ZX (Top)
 uniform float uCellSize;     // World-space size of one major grid cell
-uniform vec2  uSubdivisions; // Minor cells per major cell (vec2, allows non-square)
+uniform float uSubdivisions; // Minor cells per major cell (vec2, allows non-square)
 
 // WIDTH 
 uniform float uMaxLineWidth; // Maximum line width in UV space (scales all width params)
