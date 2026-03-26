@@ -27,9 +27,8 @@ in vec3 vCamPos;
 
 out vec4 oFragColor;
 
-// ─────────────────────────────────────────────
-// Pristine Grid: resolution-independent AA grid
-// ─────────────────────────────────────────────
+
+// Resolution-independent AA grid
 float pristineGrid(vec2 uv, vec2 lineWidth) {
     vec2 ddx = dFdx(uv);
     vec2 ddy = dFdy(uv);
@@ -49,10 +48,8 @@ float pristineGrid(vec2 uv, vec2 lineWidth) {
     return mix(grid2.x, 1.0, grid2.y);
 }
 
-// ─────────────────────────────────────────────
 // Anti-aliased line at uv = 0
 // Returns per-axis masks as vec2(x, y)
-// ─────────────────────────────────────────────
 vec2 axisLine(vec2 uv, float width) {
     vec2 axisW = vec2(width);
     vec2 dAxis = fwidth(uv);
