@@ -2,9 +2,9 @@
 
 A resolution-independent, anti-aliased infinite grid rendered via GLSL shaders in TouchDesigner. Based on the [pristine grid technique by Ben Golus](https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8).
 
-![Preview](preview1.png)
-![Preview](preview2.png)
-![Preview](preview3.png)
+<p align="center">
+  <img src="docs/preview1.png" width="33.3%" /><img src="docs/preview2.png" width="33.3%" /><img src="docs/preview3.png" width="33.3%" />
+</p>
 
 ## Project Structure
 
